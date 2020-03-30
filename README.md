@@ -1,6 +1,6 @@
 # KB-F_05111840000058
 
-# 8 Puzzle BFS
+# 8 Puzzle BFS (Breadth First Search)
 BFS (Breadth First Search) adalah strategi sederhana di mana simpul akar diperluas terlebih dahulu, kemudian semua penerus simpul akar diperluas selanjutnya, kemudian penerusnya dan seterusnya sampai jalan terbaik yang mungkin telah ditemukan. Karena kenyataan bahwa strategi untuk grafik traversal ini tidak memiliki informasi tambahan tentang status di luar yang disediakan dalam definisi masalah, Breadth First Search digolongkan sebagai pencarian yang kurang informasi atau blind.
 
 Breadth First Search Menggunakan struktur data queue sebagai lawan dari stack yang digunakan Depth First Search.
