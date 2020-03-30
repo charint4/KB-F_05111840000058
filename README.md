@@ -21,8 +21,6 @@ Jika dilakukan penghentian eksekusi setelah Node 3 diperiksa, maka queue akan te
 
 Seperti yang pada gambardibawah ini, jika mengikuti algoritma ini maka akan secara rekursif mencari setiap tingkat pohon biner menjadi lebih dalam dan lebih dalam sampai Anda menemukan jalan terpendek yang mungkin.
 
-![bfs](https://user-images.githubusercontent.com/52326074/77224197-c1909a80-6b95-11ea-92fa-ccdca09a36ac.png)
-
 # 8 Puzzle - DFS (Depth First Search)
 Algoritma DFS `Depth First Search` adalah algoritma rekursif yang menggunakan gagasan backtracking. Ini melibatkan pencarian lengkap dari semua node dengan melanjutkan, jika mungkin, dengan mundur.
 
@@ -35,13 +33,12 @@ Sifat rekursif DFS ini dapat diimplementasikan menggunakan tumpukan. Ide dasarny
 - Pop sebuah node dari stack untuk memilih node berikutnya untuk mengunjungi dan mendorong semua node yang berdekatan ke dalam stack.
 - Ulangi proses ini sampai tumpukan kosong. Namun, pastikan bahwa node yang dikunjungi ditandai. Ini akan mencegah Anda mengunjungi simpul yang sama lebih dari sekali. Jika Anda tidak menandai node yang dikunjungi dan Anda mengunjungi node yang sama lebih dari sekali, Anda mungkin berakhir dalam loop tak terbatas.
 
-![dfs](https://user-images.githubusercontent.com/52326074/77224296-cace3700-6b96-11ea-9dc1-810524ec907a.jpg)
+
 
 # 8 Puzzle - IDS (Iterative Deepening Search)
 
 `Iterative Deepening Search` (IDS) merupakan sebuah strategi umum yang biasanya dikombinasikan dengan Depth First tree search, yang akan menemukan berapa depth limit terbaik untuk digunakan. Hal ini dilakukan dengan secara menambah limit secara bertahap, mulai dari 0,1, 2, dan seterusnya sampai goal sudah ditemukan.
 
-![ids](https://user-images.githubusercontent.com/52326074/77226305-dd05a080-6ba9-11ea-8a8e-4216c8be6935.png)
 
 Iterative Deepening DFS dengan kata-kata sederhana menjalankan DFS dengan secara bertahap meningkatkan batas kedalaman - 0, kemudian mengulangi DFS dari awal dengan batas kedalaman 1, kemudian mengulangi DFS dari awal dengan tingkat kedalaman 2, dan seterusnya, hingga solusi ditemukan . Jadi bagaimana ini menggabungkan manfaat DFS dan BFS?
 
